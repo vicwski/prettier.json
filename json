@@ -4,7 +4,9 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
-
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  
   // formatter
   "prettier.tabWidth": 2,
   "prettier.semi": false,
@@ -12,14 +14,15 @@
   "prettier.trailingComma": "none",
   "prettier.arrowParens": "avoid",
   "prettier.endOfLine": "auto",
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
+  
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  
+  //liveServer
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "files.autoSave": "afterDelay"
